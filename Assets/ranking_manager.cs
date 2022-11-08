@@ -33,7 +33,7 @@ public class ranking_manager : MonoBehaviour
     }
     void SetChildText(GameObject rankPanel,int number, string text)
     {
-        rankPanel.transform.GetChild(number).GetComponent<Text>().text = text;
+        rankPanel.transform.GetChild(number).GetComponent<TMPro.TextMeshProUGUI>().text = text;
     }
 }
 public class rank
