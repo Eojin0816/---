@@ -34,6 +34,7 @@ public class ranking_manager : MonoBehaviour
     void SetChildText(GameObject rankPanel,int number, string text)
     {
         rankPanel.transform.GetChild(number).GetComponent<TMPro.TextMeshProUGUI>().text = text;
+        rankPanel.transform.localScale=new Vector3(1,1,1);
     }
 }
 public class rank

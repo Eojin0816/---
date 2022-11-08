@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 
 public class score : MonoBehaviour
-{ public Text text;
+{ public TMPro.TextMeshProUGUI text;
     public int gamescore;
     float timer = 0;
     
